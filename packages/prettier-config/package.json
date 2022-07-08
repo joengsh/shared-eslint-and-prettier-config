@@ -1,0 +1,17 @@
+{
+  "name": "@joengsh/prettier-config",
+  "version": "1.0.0",
+  "description": "shared eslint config for typescript projects",
+  "main": "./prettier-config.json",
+  "peerDependencies": {
+    "prettier": "^2.5.1"
+  },
+  "publishConfig": {
+      "access": "public"
+  },
+  "scripts": {
+      "publish-manual": "npm publish"
+  },
+  "author": "",
+  "license": "ISC"
+}
