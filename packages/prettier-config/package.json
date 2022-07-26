@@ -1,6 +1,6 @@
 {
   "name": "@joengsh/prettier-config",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "shared eslint config for typescript projects",
   "main": "./prettier-config.json",
   "peerDependencies": {

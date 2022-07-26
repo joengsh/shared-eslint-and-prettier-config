@@ -1,14 +1,17 @@
 // .eslintrc.js
 module.exports = {
   // ...
+  env: {
+	  jest: true
+  },
   extends: [
-    "airbnb-typescript",
-    "airbnb/hooks",
+    "eslint:recommended",
+    "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:jest/recommended",
     "plugin:prettier/recommended"
   ],
-  parser: "@babel/eslint-parser",
+  parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -17,4 +20,7 @@ module.exports = {
     sourceType: "module",
   },
   plugins: ["react", "@typescript-eslint", "jest", "import"],
+  rules: {
+
+  }
 };
