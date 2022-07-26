@@ -3,6 +3,7 @@
 ## install
 ```bash
 npx install-peerdeps --dev @joengsh/eslint-config-react
+# noted: only install prettier when using cra
 ```
 
 ## setup
@@ -10,4 +11,11 @@ npx install-peerdeps --dev @joengsh/eslint-config-react
 module.exports = {
   extends: ["@joengsh/eslint-config-react"],
 };
+
+// when using cra
+
+module.exports = {
+  extends: ["@joengsh/eslint-config-react/cra"],
+};
+
 ```
