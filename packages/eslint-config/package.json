@@ -1,6 +1,6 @@
 {
   "name": "@joengsh/eslint-config-react",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "shared eslint config for react typescript projects",
   "main": "./eslint-config.js",    
   "author": "Joe",
