@@ -8,5 +8,5 @@ npx install-peerdeps --dev @joengsh/prettier-config
 ## setup
 ```javascript
 // .prettierrc
-"@doppelmutzi/prettier-config"
+"@joengsh/prettier-config"
 ```
