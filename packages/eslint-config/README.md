@@ -4,6 +4,7 @@
 ```bash
 npx install-peerdeps --dev @joengsh/eslint-config-react
 # noted: only install prettier when using cra
+yarn add -D eslint-config-prettier prettier
 ```
 
 ## setup
