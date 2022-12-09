@@ -20,3 +20,14 @@ module.exports = {
 };
 
 ```
+
+## usage
+```json
+{
+  // ...
+  "scripts":{
+    // ...other scripts
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "lint-fix": "eslint --fix . --ext .js,.jsx,.ts,.tsx"
+  }
+}

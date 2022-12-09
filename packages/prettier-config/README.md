@@ -10,3 +10,13 @@ npx install-peerdeps --dev @joengsh/prettier-config
 // .prettierrc
 "@joengsh/prettier-config"
 ```
+
+## upage
+```json
+{
+  // ...
+  "scripts":{
+    // ...other scripts
+    "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx}'"
+  }
+}
