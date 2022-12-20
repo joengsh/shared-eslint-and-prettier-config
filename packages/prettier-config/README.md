@@ -9,9 +9,14 @@ npx install-peerdeps --dev @joengsh/prettier-config
 ```javascript
 // .prettierrc
 "@joengsh/prettier-config"
+
+// .prettierrc.js
+module.exports = {
+  ...require('@joengsh/prettier-config'),
+};
 ```
 
-## upage
+## usage
 ```json
 {
   // ...

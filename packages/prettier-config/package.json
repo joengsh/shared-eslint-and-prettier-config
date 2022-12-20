@@ -1,20 +1,21 @@
 {
   "name": "@joengsh/prettier-config",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "shared eslint config for typescript projects",
   "main": "./prettier-config.json",
   "peerDependencies": {
     "prettier": "^2.5.1"
   },
+  "homepage": "https://github.com/joengsh/shared-eslint-and-prettier-config/tree/main/packages/prettier-config",
   "repository": {
     "type": "git",
-    "url": "https://github.com/joengsh/shared-eslint-and-prettier-config/tree/main/packages/prettier-config"
+    "url": "https://github.com/joengsh/shared-eslint-and-prettier-config.git"
   },
   "publishConfig": {
-      "access": "public"
+    "access": "public"
   },
   "scripts": {
-      "publish-manual": "npm publish"
+    "publish-manual": "npm publish"
   },
   "author": "",
   "license": "ISC"
