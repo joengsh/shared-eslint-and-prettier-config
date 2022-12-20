@@ -1,6 +1,6 @@
 {
   "name": "@joengsh/eslint-config-react",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "shared eslint config for react typescript projects",
   "main": "./eslint-config.js",
   "author": "Joe",
@@ -10,6 +10,11 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "homepage": "https://github.com/joengsh/shared-eslint-and-prettier-config/tree/main/packages/eslint-config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joengsh/shared-eslint-and-prettier-config.git"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.30.0",

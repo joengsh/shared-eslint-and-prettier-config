@@ -9,6 +9,7 @@ yarn add -D eslint-config-prettier prettier @joengsh/eslint-config-react
 
 ## setup
 ```javascript
+// .eslintrc.js
 module.exports = {
   extends: ["@joengsh/eslint-config-react"],
 };
