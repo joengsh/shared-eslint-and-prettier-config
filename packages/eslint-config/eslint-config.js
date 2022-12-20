@@ -2,7 +2,8 @@
 module.exports = {
   // ...
   env: {
-	  jest: true
+    browser: true,
+    jest: true
   },
   extends: [
     "eslint:recommended",
@@ -11,5 +12,6 @@ module.exports = {
     "prettier",
     "plugin:jest/recommended",
     "plugin:prettier/recommended"
-  ]
+  ],
+  plugins: ["jest"]
 };

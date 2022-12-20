@@ -6,6 +6,10 @@
   "peerDependencies": {
     "prettier": "^2.5.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joengsh/shared-eslint-and-prettier-config/tree/main/packages/prettier-config"
+  },
   "publishConfig": {
       "access": "public"
   },
